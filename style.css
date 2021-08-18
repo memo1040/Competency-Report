@@ -1,0 +1,166 @@
+/*global*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+*{
+    margin:0;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+p{
+    line-height: 2;
+    font-size: 16px;
+    margin: 10px;
+    text-align: justify;
+    color: rgb(3, 67, 107);
+}
+h1,h2,h3{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: rgb(1, 35, 56);
+}
+h3{
+    font-size: 42px;
+    text-align: left;
+}
+h4{
+    color: rgb(3, 67, 107);
+}
+li{
+    color: rgb(3, 67, 107);
+}
+
+/*utilities*/
+.btn{
+    display: block;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background-color: rgb(1, 35, 56);
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 10px;
+}
+.btn:hover{
+    color: lightskyblue;
+    font-weight: 700;
+}
+.center-text{
+    text-align: center;
+}
+.container{
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+}
+
+/*header*/
+header.site-header{
+    height: 45vh;
+    background-color: lightskyblue;
+    text-align: center;
+    margin-top: 60px;
+}
+header.site-header h1{
+    font-size: 45px;
+    padding-top: 30px;
+}
+header.site-header h2{
+    font-size: 35px;
+    margin-top: 30px;
+}
+header.site-header p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+/*menu*/
+nav.menu{
+    background-color: rgb(1, 35, 56);
+    text-align: right;  
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 20px;
+    overflow: hidden;
+}
+nav.menu a{
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+nav.menu a:hover{
+    color: lightskyblue;
+    font-weight: 700;
+}
+
+/*bio*/
+
+/*projects*/
+.project-container{
+    display: flex;
+    padding-bottom: 20px;
+}
+.project-container img{
+    width: 500px;
+    max-height: 300px;
+}
+.project-text{
+    margin-left: 40px;
+}
+.project-container h5{
+    font-size: 40px;
+    color: rgb(1, 35, 56);
+}
+.project-container ul li{
+    font-size: 28px;
+    font-weight: 300;
+}
+.project-container a{
+    display: block;
+    width: 100px;
+    margin: 20px auto 10px auto;
+    padding: 10px;
+    background-color: rgb(1, 35, 56);
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+.project-container a:hover{
+    font-weight: 700;
+    color: lightskyblue;
+}
+
+/*contact*/
+#contact img{
+    width: 300px;
+}
+#contact a{
+    color: rgb(3, 67, 107);
+    text-decoration: none;
+}
+#contact a:hover{
+    color: lightskyblue;
+}
+
+/*footer*/
+footer.site-footer{
+    border-top: 1px solid lightgrey;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer.site-footer p{
+    text-align: center;
+    color: darkgray;
+    font-size: 10px;
+    text-transform: uppercase;
+}
